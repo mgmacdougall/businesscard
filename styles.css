@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #3EB3F2;
+    color: #2b2839;
+    border-top: 2px solid #EDFBC1;
+    border-left: 2px solid #EDFBC1;
+    border-right: 2px solid #EDFBC1;
+    border-bottom: 10px solid #BFCBC2;
+    box-shadow: 10px 5px 5px #EDFBC1;
+    border-radius: 10px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.card:hover{
+    box-shadow: 10px 5px 5px #0d0e0d;
+}
